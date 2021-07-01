@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainForAssembler.java&apos; to &apos;dependencyInjection2/src/main/java/main&apos;&#x0D;&#x0A;- Original project: &apos;dependencyInjection&apos;&#x0D;&#x0A;- Destination element: &apos;dependencyInjection2/src/main/java/main&apos;&#x0D;&#x0A;- Original element: &apos;MainForAssembler.java&apos;" description="Copy file" destination="=dependencyInjection2/src\/main\/java&lt;main" element1="src/main/java/main/MainForAssembler.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565005729365" units="0" version="1.0"/>
+</session>

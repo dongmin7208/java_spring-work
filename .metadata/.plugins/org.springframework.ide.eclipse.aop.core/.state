@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="09_mybatis"/>
+<aop-project name="08_2_mvc"/>
+<aop-project name="spring04"/>
+<aop-project name="spring02"/>
+<aop-project name="07_2_db_tx"/>
+<aop-project name="10_board_mybatis"/>
+<aop-project name="07_1_db"/>
+<aop-project name="08_1_mvc"/>
+<aop-project name="08_1_mvc1"/>
+<aop-project name="spring0"/>
+<aop-project name="08_3_mvc"/>
+<aop-project name="spring01"/>
+<aop-project name="spring03"/>
+<aop-project name="spring05"/>
+<aop-project name="08_3_mvc2"/>
+<aop-project name="aoptest"/>
+<aop-project name="08_2_mvc2">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="14" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#08_2_mvc2#src/main/resources/spring-member.xml#14" aspect-start-line-number="14" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/08_2_mvc2/src/main/resources/spring-member.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:08_2_mvc2|3:src/main/resources/spring-member.xml|7:beans:12|8:changePwdSvc:40" bean-file="/08_2_mvc2/src/main/resources/spring-member.xml" bean-start-line="40" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/08_2_mvc2/src/main/resources/spring-member.xml" source="=08_2_mvc/C:\/Users\/user\/.m2\/repository\/org\/springframework\/spring-tx\/4.1.0.RELEASE\/spring-tx-4.1.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=08_2_mvc2/src\/main\/java&lt;spring{ChangePasswordService.java[ChangePasswordService~changePassword~QString;~QString;~QString;" target-start-line="13"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>
